@@ -73,31 +73,3 @@ button {
 button:hover {
 	background-color: #333;
 }
-
-.box label:nth-child(1) i {
-	background-image: url("images/01.jpg");
-	animation: animate 0.5s steps(3) infinite;
-}
-
-.box label:nth-child(2) i {
-	background-image: url("images/02.jpg");
-	animation: animate 0.6s steps(3) infinite;
-}
-
-.box label:nth-child(3) i {
-	background-image: url("images/03.jpg");
-	animation: animate 0.7s steps(3) infinite;
-}
-
-.box label input:checked ~ i {
-	animation-play-state: paused;
-}
-
-@keyframes animate {
-	0% {
-		background-position: 0 0;
-	}
-	100% {
-		background-position: 600px 0;
-	}
-}
